@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A6444F62CFEBBCA0038F822 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6444F52CFEBBCA0038F822 /* FirebaseAuth */; };
+		6A6444F82CFEBBCA0038F822 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6444F72CFEBBCA0038F822 /* FirebaseFirestore */; };
+		6A6444FA2CFEBBCA0038F822 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6444F92CFEBBCA0038F822 /* FirebaseFirestoreCombine-Community */; };
+		6A6445052CFEBF9B0038F822 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6445042CFEBF9B0038F822 /* GoogleSignIn */; };
+		6A6445072CFEBF9B0038F822 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6445062CFEBF9B0038F822 /* GoogleSignInSwift */; };
+		6A64450F2CFEDF0F0038F822 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A64450E2CFEDF0F0038F822 /* FirebaseCore */; };
+		6A6447B32D0977B10038F822 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6447B22D0977B10038F822 /* HomeKit.framework */; };
+		6A6447BC2D0979BF0038F822 /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6447B82D0977E10038F822 /* WeatherKit.framework */; };
+		6A6447BF2D0979C30038F822 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6447BA2D0977EC0038F822 /* HealthKit.framework */; };
+		6A6447C12D0979C50038F822 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6447B62D0977CA0038F822 /* AVFoundation.framework */; };
+		6A6447C32D0979C60038F822 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6447B42D0977C10038F822 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD33D212CFD7E43009884B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD33D082CFD7E41009884B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD33D0F2CFD7E41009884B7;
+			remoteInfo = HealthQuest;
+		};
+		6AD33D2B2CFD7E43009884B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD33D082CFD7E41009884B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD33D0F2CFD7E41009884B7;
+			remoteInfo = HealthQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A6447BE2D0979BF0038F822 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A6447B22D0977B10038F822 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		6A6447B42D0977C10038F822 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A6447B62D0977CA0038F822 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A6447B82D0977E10038F822 /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = System/Library/Frameworks/WeatherKit.framework; sourceTree = SDKROOT; };
+		6A6447BA2D0977EC0038F822 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		6AD33D102CFD7E41009884B7 /* HealthQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD33D202CFD7E43009884B7 /* HealthQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD33D2A2CFD7E43009884B7 /* HealthQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6A6445032CFEBED60038F822 /* Exceptions for "HealthQuest" folder in "HealthQuest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6AD33D0F2CFD7E41009884B7 /* HealthQuest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6AD33D122CFD7E41009884B7 /* HealthQuest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A6445032CFEBED60038F822 /* Exceptions for "HealthQuest" folder in "HealthQuest" target */,
+			);
+			path = HealthQuest;
+			sourceTree = "<group>";
+		};
+		6AD33D232CFD7E43009884B7 /* HealthQuestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthQuestTests;
+			sourceTree = "<group>";
+		};
+		6AD33D2D2CFD7E43009884B7 /* HealthQuestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD33D0D2CFD7E41009884B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6447C12D0979C50038F822 /* AVFoundation.framework in Frameworks */,
+				6A6445072CFEBF9B0038F822 /* GoogleSignInSwift in Frameworks */,
+				6A6447C32D0979C60038F822 /* CoreLocation.framework in Frameworks */,
+				6A6447B32D0977B10038F822 /* HomeKit.framework in Frameworks */,
+				6A6447BF2D0979C30038F822 /* HealthKit.framework in Frameworks */,
+				6A6444FA2CFEBBCA0038F822 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				6A6445052CFEBF9B0038F822 /* GoogleSignIn in Frameworks */,
+				6A6447BC2D0979BF0038F822 /* WeatherKit.framework in Frameworks */,
+				6A6444F62CFEBBCA0038F822 /* FirebaseAuth in Frameworks */,
+				6A64450F2CFEDF0F0038F822 /* FirebaseCore in Frameworks */,
+				6A6444F82CFEBBCA0038F822 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D1D2CFD7E43009884B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D272CFD7E43009884B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6447B12D0977B00038F822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6447BA2D0977EC0038F822 /* HealthKit.framework */,
+				6A6447B82D0977E10038F822 /* WeatherKit.framework */,
+				6A6447B62D0977CA0038F822 /* AVFoundation.framework */,
+				6A6447B42D0977C10038F822 /* CoreLocation.framework */,
+				6A6447B22D0977B10038F822 /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD33D072CFD7E41009884B7 = {
+			isa = PBXGroup;
+			children = (
+				6AD33D122CFD7E41009884B7 /* HealthQuest */,
+				6AD33D232CFD7E43009884B7 /* HealthQuestTests */,
+				6AD33D2D2CFD7E43009884B7 /* HealthQuestUITests */,
+				6A6447B12D0977B00038F822 /* Frameworks */,
+				6AD33D112CFD7E41009884B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD33D112CFD7E41009884B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD33D102CFD7E41009884B7 /* HealthQuest.app */,
+				6AD33D202CFD7E43009884B7 /* HealthQuestTests.xctest */,
+				6AD33D2A2CFD7E43009884B7 /* HealthQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD33D0F2CFD7E41009884B7 /* HealthQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD33D342CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuest" */;
+			buildPhases = (
+				6AD33D0C2CFD7E41009884B7 /* Sources */,
+				6AD33D0D2CFD7E41009884B7 /* Frameworks */,
+				6A6447BE2D0979BF0038F822 /* Embed Frameworks */,
+				6AD33D0E2CFD7E41009884B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6AD33D122CFD7E41009884B7 /* HealthQuest */,
+			);
+			name = HealthQuest;
+			packageProductDependencies = (
+				6A6444F52CFEBBCA0038F822 /* FirebaseAuth */,
+				6A6444F72CFEBBCA0038F822 /* FirebaseFirestore */,
+				6A6444F92CFEBBCA0038F822 /* FirebaseFirestoreCombine-Community */,
+				6A6445042CFEBF9B0038F822 /* GoogleSignIn */,
+				6A6445062CFEBF9B0038F822 /* GoogleSignInSwift */,
+				6A64450E2CFEDF0F0038F822 /* FirebaseCore */,
+			);
+			productName = HealthQuest;
+			productReference = 6AD33D102CFD7E41009884B7 /* HealthQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AD33D1F2CFD7E43009884B7 /* HealthQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD33D372CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuestTests" */;
+			buildPhases = (
+				6AD33D1C2CFD7E43009884B7 /* Sources */,
+				6AD33D1D2CFD7E43009884B7 /* Frameworks */,
+				6AD33D1E2CFD7E43009884B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD33D222CFD7E43009884B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6AD33D232CFD7E43009884B7 /* HealthQuestTests */,
+			);
+			name = HealthQuestTests;
+			packageProductDependencies = (
+			);
+			productName = HealthQuestTests;
+			productReference = 6AD33D202CFD7E43009884B7 /* HealthQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AD33D292CFD7E43009884B7 /* HealthQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD33D3A2CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuestUITests" */;
+			buildPhases = (
+				6AD33D262CFD7E43009884B7 /* Sources */,
+				6AD33D272CFD7E43009884B7 /* Frameworks */,
+				6AD33D282CFD7E43009884B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD33D2C2CFD7E43009884B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6AD33D2D2CFD7E43009884B7 /* HealthQuestUITests */,
+			);
+			name = HealthQuestUITests;
+			packageProductDependencies = (
+			);
+			productName = HealthQuestUITests;
+			productReference = 6AD33D2A2CFD7E43009884B7 /* HealthQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD33D082CFD7E41009884B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6AD33D0F2CFD7E41009884B7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6AD33D1F2CFD7E43009884B7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6AD33D0F2CFD7E41009884B7;
+					};
+					6AD33D292CFD7E43009884B7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6AD33D0F2CFD7E41009884B7;
+					};
+				};
+			};
+			buildConfigurationList = 6AD33D0B2CFD7E41009884B7 /* Build configuration list for PBXProject "HealthQuest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD33D072CFD7E41009884B7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6A6444FB2CFEBBF70038F822 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6AD33D112CFD7E41009884B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD33D0F2CFD7E41009884B7 /* HealthQuest */,
+				6AD33D1F2CFD7E43009884B7 /* HealthQuestTests */,
+				6AD33D292CFD7E43009884B7 /* HealthQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD33D0E2CFD7E41009884B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D1E2CFD7E43009884B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D282CFD7E43009884B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD33D0C2CFD7E41009884B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D1C2CFD7E43009884B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD33D262CFD7E43009884B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD33D222CFD7E43009884B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD33D0F2CFD7E41009884B7 /* HealthQuest */;
+			targetProxy = 6AD33D212CFD7E43009884B7 /* PBXContainerItemProxy */;
+		};
+		6AD33D2C2CFD7E43009884B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD33D0F2CFD7E41009884B7 /* HealthQuest */;
+			targetProxy = 6AD33D2B2CFD7E43009884B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AD33D322CFD7E43009884B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD33D332CFD7E43009884B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD33D352CFD7E43009884B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthQuest/HealthQuest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthQuest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthQuest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AD33D362CFD7E43009884B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthQuest/HealthQuest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthQuest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthQuest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AD33D382CFD7E43009884B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthQuest";
+			};
+			name = Debug;
+		};
+		6AD33D392CFD7E43009884B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthQuest";
+			};
+			name = Release;
+		};
+		6AD33D3B2CFD7E43009884B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthQuest;
+			};
+			name = Debug;
+		};
+		6AD33D3C2CFD7E43009884B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-usc.edu.HealthQuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD33D0B2CFD7E41009884B7 /* Build configuration list for PBXProject "HealthQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD33D322CFD7E43009884B7 /* Debug */,
+				6AD33D332CFD7E43009884B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD33D342CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD33D352CFD7E43009884B7 /* Debug */,
+				6AD33D362CFD7E43009884B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD33D372CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD33D382CFD7E43009884B7 /* Debug */,
+				6AD33D392CFD7E43009884B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD33D3A2CFD7E43009884B7 /* Build configuration list for PBXNativeTarget "HealthQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD33D3B2CFD7E43009884B7 /* Debug */,
+				6AD33D3C2CFD7E43009884B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		6A6444FB2CFEBBF70038F822 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A6444F52CFEBBCA0038F822 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6A6444F72CFEBBCA0038F822 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6A6444F92CFEBBCA0038F822 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		6A6445042CFEBF9B0038F822 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444FB2CFEBBF70038F822 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		6A6445062CFEBF9B0038F822 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444FB2CFEBBF70038F822 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		6A64450E2CFEDF0F0038F822 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A6444F42CFEBBCA0038F822 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6AD33D082CFD7E41009884B7 /* Project object */;
+}
